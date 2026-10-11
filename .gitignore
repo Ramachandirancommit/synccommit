@@ -3,4 +3,5 @@ dist/
 .env
 .dev.vars
 .wrangler/
+/https:/
 

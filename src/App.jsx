@@ -17,8 +17,8 @@ const pageTitles = {
   '/events': 'Conferences & Meetups — SyncCommit Technologies',
   '/careers': 'Careers — SyncCommit Technologies',
   '/contact': 'Contact — SyncCommit Technologies',
-  '/privacy': 'Privacy Policy Draft — SyncCommit Technologies',
-  '/terms': 'Terms Draft — SyncCommit Technologies',
+  '/privacy': 'Privacy Notice — SyncCommit Technologies Private Limited',
+  '/terms': 'Website Terms — SyncCommit Technologies Private Limited',
 };
 
 function ScrollToTop() {

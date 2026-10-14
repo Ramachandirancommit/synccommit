@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { companyContact } from '../../config/content.js';
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
         <div className="footer-columns">
           <div><span className="footer-label">Explore</span><Link to="/services">Services</Link><Link to="/projects">Projects</Link><Link to="/events">Conferences & meetups</Link><Link to="/upcoming-projects">Upcoming projects</Link><Link to="/ecosystem">Technology ecosystem</Link></div>
           <div><span className="footer-label">Company</span><Link to="/about">About us</Link><Link to="/vision-mission">Vision & mission</Link><Link to="/achievements">Achievements</Link><Link to="/team">Team & collaboration</Link><Link to="/careers">Careers</Link></div>
-          <div><span className="footer-label">Get in touch</span><Link to="/contact">Contact SyncCommit <ArrowUpRight size={13} /></Link><a href="mailto:hello@synccommit.com">hello@synccommit.com <ArrowUpRight size={13} /></a><Link to="/privacy">Privacy notice</Link><Link to="/terms">Website terms</Link></div>
+          <div><span className="footer-label">Get in touch</span><Link to="/contact">Contact SyncCommit <ArrowUpRight size={13} /></Link><a href={`mailto:${companyContact.email}`}>{companyContact.email} <ArrowUpRight size={13} /></a><a href={companyContact.phoneHref}>{companyContact.phone} <ArrowUpRight size={13} /></a><Link to="/privacy">Privacy notice</Link><Link to="/terms">Website terms</Link></div>
         </div>
       </div>
       <div className="footer-bottom container">

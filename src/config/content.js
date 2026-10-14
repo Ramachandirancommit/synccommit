@@ -1,3 +1,9 @@
+export const companyContact = {
+  email: 'mramachandiran9@gmail.com',
+  phone: '9629939175',
+  phoneHref: 'tel:+919629939175',
+};
+
 export const navigation = [
   { label: 'Services', to: '/services' },
   { label: 'Projects', to: '/projects' },
@@ -106,6 +112,18 @@ export const projects = [
     image: '/images/projects/hospital-health-app.svg',
     imageAlt: 'Original illustrative mobile interface artwork for the hospital app concept; not clinical guidance.',
     tags: ['Healthcare', 'Mobile application', 'Patient experience'],
+  },
+  {
+    slug: 'skydiving-projects',
+    title: 'Skydiving Projects',
+    category: 'Sports & training',
+    status: 'In planning',
+    summary: 'Indoor skydiving training, with outdoor training pending government approval.',
+    description: 'A skydiving project focused on indoor training in a controlled wind-tunnel environment. Outdoor skydiving training is pending government approval and will begin only after the required approvals are granted.',
+    image: '/images/projects/skydiving-training.svg',
+    imageAlt: 'Illustration of indoor wind-tunnel training and an outdoor parachute.',
+    tags: ['Indoor training', 'Outdoor training', 'Government approval pending'],
+    trainingNotice: true,
   },
 ];
 

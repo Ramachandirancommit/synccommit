@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" fill="none">
+  <defs><linearGradient id="sky" x2="900" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#EAF8FA"/><stop offset="1" stop-color="#CBE3EC"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h900v560H0z"/>
+  <circle cx="450" cy="280" r="215" stroke="#45879B" stroke-opacity=".2"/>
+  <rect x="115" y="108" width="295" height="344" rx="38" fill="white" fill-opacity=".7" stroke="#84A9B7" stroke-width="5"/>
+  <path d="M145 420h235M145 140h235" stroke="#112640" stroke-width="12" stroke-linecap="round"/>
+  <path d="M178 386v-63m-12 15 12-15 12 15M262 386v-52m-12 15 12-15 12 15M346 386v-63m-12 15 12-15 12 15" stroke="#35BBD3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#112640" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><circle cx="300" cy="235" r="15" fill="#F2CD83" stroke="none"/><path d="m281 265-53 13-38-24m38 24-40 24m40-24 49 18 48-28m-49 28 52 21"/></g>
+  <path d="M495 235c0-150 260-150 260 0-42-25-86-25-130 0-43-25-87-25-130 0Z" fill="#35BBD3" stroke="#075E78" stroke-width="5"/>
+  <path d="M625 123c-40 30-58 66-58 100m58-100c40 30 58 66 58 100M495 235l130 118 130-118M567 223l58 130 58-130" stroke="#075E78" stroke-width="4"/>
+  <circle cx="625" cy="371" r="15" fill="#112640"/>
+  <path d="M625 395v37m0-30-27-24m27 24 27-24m-27 54-24 27m24-27 24 27" stroke="#112640" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="792" cy="117" r="19" fill="#F2CD83"/>
+</svg>

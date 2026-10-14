@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Header from './components/layout/Header.jsx';
 import Footer from './components/layout/Footer.jsx';
+import AnasSteelPage from './pages/AnasSteelPage.jsx';
 import { AboutPage, AchievementsPage, CareersPage, ContactPage, EcosystemPage, EventsPage, HomePage, JobDetailsPage, NotFoundPage, PrivacyPage, ProjectDetailsPage, ProjectsPage, ServicesPage, TeamPage, TermsPage, UpcomingProjectsPage, VisionMissionPage } from './pages/Pages.jsx';
 
 const pageTitles = {
@@ -16,6 +17,7 @@ const pageTitles = {
   '/team': 'Team & Collaboration — SyncCommit Technologies',
   '/events': 'Conferences & Meetups — SyncCommit Technologies',
   '/careers': 'Careers — SyncCommit Technologies',
+  '/anas-steel': 'Anas Steel ? Steel Supply & Enquiries',
   '/contact': 'Contact — SyncCommit Technologies',
   '/privacy': 'Privacy Notice — SyncCommit Technologies Private Limited',
   '/terms': 'Website Terms — SyncCommit Technologies Private Limited',
@@ -51,6 +53,7 @@ export default function App() {
           <Route path="/events" element={<EventsPage />} />
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/careers/:jobId" element={<JobDetailsPage />} />
+          <Route path="/anas-steel" element={<AnasSteelPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />

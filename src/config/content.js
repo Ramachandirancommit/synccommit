@@ -19,6 +19,7 @@ export const moreNavigation = [
   { label: 'Upcoming projects', to: '/upcoming-projects' },
   { label: 'Team & collaboration', to: '/team' },
   { label: 'Contact', to: '/contact' },
+  { label: 'Anas Steel', to: '/anas-steel' },
 ];
 
 // Original local sample illustrations can be used permanently without external image services.

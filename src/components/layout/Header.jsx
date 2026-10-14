@@ -17,7 +17,7 @@ export default function Header() {
     <header className="site-header">
       <div className="nav-wrap">
         <Link className="brand" to="/" aria-label="SyncCommit Technologies home" onClick={close}>
-          <span className="brand-mark" aria-hidden="true"><i /><i /><i /></span>
+          <img className="brand-logo" src="/images/logo.svg" alt="" width="31" height="31" />
           <span className="brand-name">synccommit<span>technologies</span></span>
         </Link>
         <button className="menu-toggle" type="button" aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} onClick={() => setOpen(!open)}>

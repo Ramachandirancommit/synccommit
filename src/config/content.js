@@ -21,7 +21,7 @@ export const moreNavigation = [
   { label: 'Contact', to: '/contact' },
 ];
 
-// Self-created local SVG illustrations fill image slots until approved company photography is available.
+// Original local sample illustrations can be used permanently without external image services.
 export const images = {
   homeSlides: [
     { src: '/images/events/event-moment-01.svg', alt: 'Abstract illustration of ideas connecting around a shared goal.', title: 'Ideas are better shared.', label: 'Original SyncCommit illustration' },
@@ -29,19 +29,19 @@ export const images = {
     { src: '/images/team/team-collaboration.svg', alt: 'Abstract illustration of a connected collaborative workspace.', title: 'Build the next thing together.', label: 'Original SyncCommit illustration' },
   ],
   pageHeroes: {
-    about: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing the SyncCommit technology network.' },
-    services: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing connected services and technology.' },
-    projects: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing connected project ideas.' },
-    vision: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing technology with purpose.' },
-    ecosystem: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing a connected technology ecosystem.' },
-    team: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing collaboration and connected work.' },
-    events: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing connected ideas at an event.' },
-    careers: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing opportunity and connected work.' },
-    contact: { src: '/images/hero/technology-network.svg', alt: 'Original abstract illustration representing a connected conversation.' },
+    about: { src: '/images/sample/people.svg', alt: 'Sample people illustration for SyncCommit.' },
+    services: { src: '/images/sample/services.svg', alt: 'Sample services illustration for SyncCommit.' },
+    projects: { src: '/images/sample/projects.svg', alt: 'Sample projects illustration for SyncCommit.' },
+    vision: { src: '/images/sample/vision.svg', alt: 'Sample vision illustration for SyncCommit.' },
+    ecosystem: { src: '/images/sample/ecosystem.svg', alt: 'Sample ecosystem illustration for SyncCommit.' },
+    team: { src: '/images/sample/people.svg', alt: 'Sample people illustration for SyncCommit.' },
+    events: { src: '/images/sample/events.svg', alt: 'Sample events illustration for SyncCommit.' },
+    careers: { src: '/images/sample/careers.svg', alt: 'Sample careers illustration for SyncCommit.' },
+    contact: { src: '/images/sample/contact.svg', alt: 'Sample contact illustration for SyncCommit.' },
     achievements: { src: '/images/milestones/achievement.svg', alt: 'Original illustrative trophy artwork; not a claim of an actual award.' },
     upcoming: { src: '/images/upcoming/upcoming-project.svg', alt: 'Original abstract illustration representing ideas in progress; not a project announcement.' },
-    privacy: { src: '/images/hero/technology-network.svg', alt: 'Original abstract technology illustration.' },
-    terms: { src: '/images/hero/technology-network.svg', alt: 'Original abstract technology illustration.' },
+    privacy: { src: '/images/sample/privacy.svg', alt: 'Sample privacy illustration for SyncCommit.' },
+    terms: { src: '/images/sample/privacy.svg', alt: 'Sample privacy illustration for SyncCommit.' },
   },
 };
 

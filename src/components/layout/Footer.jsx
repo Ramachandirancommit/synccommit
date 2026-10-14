@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom container">
-        <Link className="brand brand-footer" to="/" aria-label="SyncCommit Technologies home"><span className="brand-mark" aria-hidden="true"><i /><i /><i /></span><span className="brand-name">synccommit<span>technologies</span></span></Link>
+        <Link className="brand brand-footer" to="/" aria-label="SyncCommit Technologies home"><img className="brand-logo" src="/images/logo.svg" alt="" width="31" height="31" /><span className="brand-name">synccommit<span>technologies</span></span></Link>
         <span className="copyright">© {new Date().getFullYear()} SyncCommit Technologies Private Limited. All rights reserved.</span>
       </div>
     </footer>

@@ -1,7 +1,7 @@
 export const companyContact = {
-  email: 'mramachandiran9@gmail.com',
-  phone: '9629939175',
-  phoneHref: 'tel:+919629939175',
+  email: 'synccommit@gmail.com',
+  phone: '8072622454',
+  phoneHref: 'tel:+918072622454',
 };
 
 export const navigation = [

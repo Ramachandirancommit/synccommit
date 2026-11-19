@@ -44,12 +44,12 @@ function DemoForm({ kind = 'contact' }) {
     setStatus('validated');
   }
   return <>
-    {status === 'validated' && <div className="form-alert success" role="status"><Check size={18} /><span><strong>Validated locally; not sent.</strong><br />The information remains in this form in your browser. This site has not transmitted or stored it.</span><button type="button" aria-label="Dismiss message" onClick={() => setStatus('')}><X size={16} /></button></div>}
+    {status === 'validated' && <div className="form-alert success" role="status"><Check size={18} /><span><strong>🎉 Thank you for your interest!</strong><br />To submit your request, email us at <a href={`mailto:${companyContact.email}`}>{companyContact.email}</a>. Our team will get back to you.</span><button type="button" aria-label="Dismiss message" onClick={() => setStatus('')}><X size={16} /></button></div>}
     <form className="contact-form" onSubmit={submit}>
       <div className="form-row"><label>{isCareer ? 'Your name' : 'Name'}<input name="name" autoComplete="name" placeholder="Jamie Smith" required /></label><label>Email address<input type="email" name="email" autoComplete="email" placeholder="jamie@company.com" required /></label></div>
       {isCareer ? <div className="form-row"><label>Area of interest<select name="interest" defaultValue="" required><option value="" disabled>Select a discipline</option><option>Product & strategy</option><option>Design</option><option>Engineering</option><option>AI & automation</option><option>Operations</option><option>Other</option></select><ChevronDown className="select-arrow" size={16} /></label><label>Portfolio or LinkedIn <input type="url" name="link" placeholder="https://" /></label></div> : <label>What would you like to work on?<select name="interest" defaultValue="" required><option value="" disabled>Select a service</option><option>Product strategy</option><option>Experience design</option><option>Software engineering</option><option>AI & automation</option><option>Something else</option></select><ChevronDown className="select-arrow" size={16} /></label>}
       <label>{isCareer ? 'A little about you' : 'A little about your project'}<textarea name="message" rows="4" placeholder={isCareer ? 'What kind of work gets you excited?' : 'What are you hoping to make possible?'} required /></label>
-      <p className="form-preview-note">Local preview only. This form validates in your browser and does not transmit or store your information. Do not enter sensitive or confidential details. Read our <Link to="/privacy">Privacy Notice</Link>.</p>
+      <p className="form-preview-note">This form checks your details locally. Please email us to send your request. Read our <Link to="/privacy">Privacy Notice</Link>.</p>
       <button className="button button-dark" type="submit">{isCareer ? 'Validate introduction' : 'Validate message'} <ArrowUpRight size={16} /></button>
     </form>
   </>;
